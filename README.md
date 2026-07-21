@@ -1,14 +1,16 @@
-<div align="center">
-
-
-
 ![Header](https://capsule-render.vercel.app/api?type=waving&color=0:8E2DE2,100:4A00E0&height=250&section=header&text=JOSEPH%20VIJAY&fontSize=60&fontColor=ffffff&animation=twinkling&fontAlignY=35&desc=Robotics%20Engineer%20%7C%20AI%2FML%20%7C%20IoT%20Innovator&descAlignY=55&descSize=18)
 
 
 
+<div align="center">
+
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3000&pause=800&color=8E2DE2&center=true&vCenter=true&width=650&lines=Building+Autonomous+Systems+%F0%9F%A4%96;Turning+Ideas+Into+Real+Products+%F0%9F%9A%80;Robotics+%2B+AI%2FML+%2B+IoT+%F0%9F%92%A1;Founder+%40+Huromata" alt="Typing SVG" />
 
-<img src="https://komarev.com/ghpvc/?username=Joseph-Vijay-&style=for-the-badge&color=8E2DE2" alt="Profile views" />
+
+
+![Profile Views](https://visitor-badge.laobi.icu/badge?page_id=Joseph-Vijay-.Joseph-Vijay-)
+
+
 <img src="https://img.shields.io/badge/Location-India-8E2DE2?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Location" />
 
 </div>
@@ -131,22 +133,6 @@
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=Joseph-Vijay-&theme=react-dark&hide_border=true&bg_color=0D1117" width="97%"/>
 </div>
 
-<br>
-
-<div align="center">
-
-
-
-![Snake animation](https://raw.githubusercontent.com/Joseph-Vijay-/Joseph-Vijay-/output/github-contribution-grid-snake.svg)
-
-
-
-</div>
-
 
 
 ![Footer](https://capsule-render.vercel.app/api?type=waving&color=0:4A00E0,100:8E2DE2&height=150&section=footer&animation=twinkling)
-
-
-
-
