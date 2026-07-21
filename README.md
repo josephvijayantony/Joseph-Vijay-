@@ -122,15 +122,28 @@
 
 <br>
 
-## 📊 GitHub Stats
+## 🤖 Robotics in Motion
 
 <div align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=Joseph-Vijay-&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117" width="48%" />
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Joseph-Vijay-&theme=radical&hide_border=true&background=0D1117" width="48%" />
+<img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.gif" width="400">
 </div>
 
+<br>
+
+## 💻 Coding Vibe
+
 <div align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Joseph-Vijay-&theme=react-dark&hide_border=true&bg_color=0D1117" width="97%"/>
+<img src="https://user-images.githubusercontent.com/74038190/229223263-cf2593c3-a548-4be1-9d10-f14dea6cd881.gif" width="500">
+</div>
+
+<br>
+
+<div align="center">
+
+### 📈 Let's Build Something Great Together
+
+<img src="https://user-images.githubusercontent.com/74038190/213844263-a8897a51-32f4-4b3b-b5c2-e1528b89f6f3.gif" width="100%">
+
 </div>
 
 
