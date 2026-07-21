@@ -1,30 +1,18 @@
-<div align="center">
+$ git init
 
-<h1>
-  <span class="wave">👋</span> Hi, I'm Vijay
-</h1>
+> Initializing creativity...
 
-<p>
-💻 BSc CS (AI & DS) <br>
-🚀 Learning Java, Python & AI <br>
-🌱 Building projects every day
-</p>
+$ git add .
+✔ Added: ideas
+✔ Added: passion
+✔ Added: clean_code
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1200&color=36BCF7&center=true&vCenter=true&width=500&lines=Welcome+to+my+GitHub!;Java+Developer;Python+Learner;AI+%26+Data+Science;Always+Learning..." />
+$ git commit -m "Build. Break. Learn. Repeat."
+[main 9f3a7b2] Build. Break. Learn. Repeat.
 
----
+$ git push origin main
 
-### ⚡ Current Goals
-```text
-▰▰▰▰▰▱▱▱▱▱  Learn DSA
-▰▰▰▰▰▰▱▱▱▱  Java
-▰▰▰▰▱▱▱▱▱▱  AI Projects
-```
+████████████████████ 100%
 
-### 🛠 Tech Stack
-
-`Java` `Python` `HTML` `CSS` `Git` `GitHub`
-
-⭐ Thanks for visiting!
-
-</div>
+🚀 Deployment Complete
+✨ One more contribution to the journey.
