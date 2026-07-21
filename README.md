@@ -1,66 +1,62 @@
-<svg width="760" height="180" viewBox="0 0 760 180" xmlns="http://www.w3.org/2000/svg">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="120" viewBox="0 0 480 120">
   <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="0%">
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#0d1117"/>
       <stop offset="100%" stop-color="#161b22"/>
     </linearGradient>
-    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#58a6ff"/>
-      <stop offset="100%" stop-color="#39d353"/>
+      <stop offset="100%" stop-color="#79c0ff"/>
     </linearGradient>
-    <filter id="glow">
-      <feGaussianBlur stdDeviation="2.5" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
+    <clipPath id="reveal">
+      <rect x="0" y="0" width="0" height="30">
+        <animate attributeName="width" from="0" to="330" dur="2.6s" begin="0s;reveal.end+2.5s" fill="freeze" id="reveal"/>
+      </rect>
+    </clipPath>
   </defs>
 
-  <rect width="760" height="180" rx="14" fill="url(#bg)"/>
+  <rect x="1" y="1" width="478" height="118" rx="14" fill="url(#bg)" stroke="#30363d" stroke-width="1"/>
 
-  <path d="M 40 100 C 150 100, 180 40, 280 40 C 380 40, 380 140, 480 140 C 580 140, 600 100, 720 100"
-        fill="none" stroke="url(#lineGrad)" stroke-width="3" stroke-linecap="round"
-        stroke-dasharray="900" stroke-dashoffset="900">
-    <animate attributeName="stroke-dashoffset" from="900" to="0" dur="2.8s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/>
-  </path>
+  <circle cx="24" cy="24" r="5" fill="#ff5f56"/>
+  <circle cx="42" cy="24" r="5" fill="#ffbd2e"/>
+  <circle cx="60" cy="24" r="5" fill="#27c93f"/>
+  <text x="240" y="28" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="11" fill="#8b949e">commit.sh</text>
+  <line x1="0" y1="44" x2="480" y2="44" stroke="#21262d" stroke-width="1"/>
 
-  <g font-family="Consolas, Menlo, monospace" font-size="12" fill="#c9d1d9">
-    <circle cx="40" cy="100" r="0" fill="#39d353" filter="url(#glow)">
-      <animate attributeName="r" values="0;7;5" keyTimes="0;0.6;1" dur="0.5s" begin="0.1s" fill="freeze"/>
+  <g transform="translate(30,62)">
+    <line x1="6" y1="0" x2="6" y2="36" stroke="#30363d" stroke-width="2"/>
+    <circle cx="6" cy="0" r="5" fill="#8b949e"/>
+    <circle cx="6" cy="36" r="6" fill="url(#accent)">
+      <animate attributeName="r" values="6;8;6" dur="1.6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;0.6;1" dur="1.6s" repeatCount="indefinite"/>
     </circle>
-
-    <circle cx="280" cy="40" r="0" fill="#58a6ff" filter="url(#glow)">
-      <animate attributeName="r" values="0;7;5" keyTimes="0;0.6;1" dur="0.5s" begin="1.0s" fill="freeze"/>
-    </circle>
-    <text x="280" y="24" text-anchor="middle" opacity="0">
-      feat: init
-      <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.1s" fill="freeze"/>
-    </text>
-
-    <circle cx="480" cy="140" r="0" fill="#f778ba" filter="url(#glow)">
-      <animate attributeName="r" values="0;7;5" keyTimes="0;0.6;1" dur="0.5s" begin="1.9s" fill="freeze"/>
-    </circle>
-    <text x="480" y="164" text-anchor="middle" opacity="0">
-      fix: bug
-      <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="2.0s" fill="freeze"/>
-    </text>
-
-    <circle cx="720" cy="100" r="0" fill="#e3b341" filter="url(#glow)">
-      <animate attributeName="r" values="0;8;6" keyTimes="0;0.6;1" dur="0.5s" begin="2.7s" fill="freeze"/>
-      <animate attributeName="opacity" values="1;0.4;1" dur="1.6s" begin="3.2s" repeatCount="indefinite"/>
+    <circle cx="6" cy="36" r="10" fill="none" stroke="#58a6ff" stroke-width="1.5" opacity="0">
+      <animate attributeName="r" values="6;16" dur="1.6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.6;0" dur="1.6s" repeatCount="indefinite"/>
     </circle>
   </g>
 
-  <text x="40" y="150" font-family="Consolas, Menlo, monospace" font-size="16" fill="#8b949e">
-    <tspan opacity="0">
-      git commit -m "keep shipping"
-      <animate attributeName="opacity" from="0" to="1" dur="0.6s" begin="3.3s" fill="freeze"/>
-    </tspan>
-  </text>
+  <g font-family="Menlo, Consolas, monospace" font-size="15">
+    <text x="60" y="72" fill="#7ee787">$</text>
+    <g clip-path="url(#reveal)">
+      <text x="78" y="72" fill="#c9d1d9">git commit -m "shipped something great"</text>
+    </g>
+    <rect x="78" y="60" width="9" height="16" fill="#79c0ff">
+      <animate attributeName="x" from="78" to="408" dur="2.6s" begin="0s;reveal.end+2.5s" fill="freeze"/>
+      <animate attributeName="opacity" values="1;0;1" dur="0.8s" repeatCount="indefinite"/>
+    </rect>
+  </g>
 
-  <rect x="330" y="138" width="9" height="16" fill="#39d353" opacity="0">
-    <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="3.3s" fill="freeze"/>
-    <animate attributeName="opacity" values="1;0;1" dur="1s" begin="3.4s" repeatCount="indefinite"/>
-  </rect>
+  <text x="60" y="100" font-family="Menlo, Consolas, monospace" font-size="12" fill="#8b949e">
+    1 file changed
+    <animate attributeName="opacity" from="0" to="1" dur="0.6s" begin="reveal.end+0.2s" fill="freeze"/>
+  </text>
+  <text x="175" y="100" font-family="Menlo, Consolas, monospace" font-size="12" fill="#3fb950">
+    +12
+    <animate attributeName="opacity" from="0" to="1" dur="0.6s" begin="reveal.end+0.4s" fill="freeze"/>
+  </text>
+  <text x="210" y="100" font-family="Menlo, Consolas, monospace" font-size="12" fill="#f85149">
+    -3
+    <animate attributeName="opacity" from="0" to="1" dur="0.6s" begin="reveal.end+0.4s" fill="freeze"/>
+  </text>
 </svg>
