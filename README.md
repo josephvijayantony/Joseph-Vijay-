@@ -1,99 +1,66 @@
-<div align="center">
+<svg width="760" height="180" viewBox="0 0 760 180" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#161b22"/>
+    </linearGradient>
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#58a6ff"/>
+      <stop offset="100%" stop-color="#39d353"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
 
+  <rect width="760" height="180" rx="14" fill="url(#bg)"/>
 
+  <path d="M 40 100 C 150 100, 180 40, 280 40 C 380 40, 380 140, 480 140 C 580 140, 600 100, 720 100"
+        fill="none" stroke="url(#lineGrad)" stroke-width="3" stroke-linecap="round"
+        stroke-dasharray="900" stroke-dashoffset="900">
+    <animate attributeName="stroke-dashoffset" from="900" to="0" dur="2.8s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/>
+  </path>
 
-![Header](https://capsule-render.vercel.app/api?type=rect&color=0:0f0c29,50:302b63,100:24243e&height=200&section=header&text=JOSEPH_VIJAY.exe&fontSize=45&fontColor=00ff9f&fontAlignY=55&animation=fadeIn)
+  <g font-family="Consolas, Menlo, monospace" font-size="12" fill="#c9d1d9">
+    <circle cx="40" cy="100" r="0" fill="#39d353" filter="url(#glow)">
+      <animate attributeName="r" values="0;7;5" keyTimes="0;0.6;1" dur="0.5s" begin="0.1s" fill="freeze"/>
+    </circle>
 
+    <circle cx="280" cy="40" r="0" fill="#58a6ff" filter="url(#glow)">
+      <animate attributeName="r" values="0;7;5" keyTimes="0;0.6;1" dur="0.5s" begin="1.0s" fill="freeze"/>
+    </circle>
+    <text x="280" y="24" text-anchor="middle" opacity="0">
+      feat: init
+      <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.1s" fill="freeze"/>
+    </text>
 
+    <circle cx="480" cy="140" r="0" fill="#f778ba" filter="url(#glow)">
+      <animate attributeName="r" values="0;7;5" keyTimes="0;0.6;1" dur="0.5s" begin="1.9s" fill="freeze"/>
+    </circle>
+    <text x="480" y="164" text-anchor="middle" opacity="0">
+      fix: bug
+      <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="2.0s" fill="freeze"/>
+    </text>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&duration=2500&pause=600&color=00FF9F&center=true&vCenter=true&width=600&lines=%3E+whoami;JOSEPH+VIJAY+—+ROBOTICS+ENGINEER;%3E+status;Building+autonomous+systems...;%3E+company;Founder+%40+Huromata" alt="terminal" />
+    <circle cx="720" cy="100" r="0" fill="#e3b341" filter="url(#glow)">
+      <animate attributeName="r" values="0;8;6" keyTimes="0;0.6;1" dur="0.5s" begin="2.7s" fill="freeze"/>
+      <animate attributeName="opacity" values="1;0.4;1" dur="1.6s" begin="3.2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
 
-</div>
+  <text x="40" y="150" font-family="Consolas, Menlo, monospace" font-size="16" fill="#8b949e">
+    <tspan opacity="0">
+      git commit -m "keep shipping"
+      <animate attributeName="opacity" from="0" to="1" dur="0.6s" begin="3.3s" fill="freeze"/>
+    </tspan>
+  </text>
 
-<br>
- <div align="center">
-
-
-
-![Profile Views](https://visitor-badge.laobi.icu/badge?page_id=Joseph-Vijay-.Joseph-Vijay-&left_color=0f0c29&right_color=00ff9f)
-
-
-
-</div>
-
----
-
-## `> ls tech_stack/`
-
-<table align="center">
-<tr>
-<td valign="top" width="33%">
-
-**🤖 robotics/**
-</td>
-<td valign="top" width="33%">
-
-**🧠 ai_ml/**
-</td>
-<td valign="top" width="33%">
-
-**⚙️ full_stack/**
-</td>
-</tr>
-</table>
-
-<div align="center">
-
-
-
-![Python](https://img.shields.io/badge/-Python-000?style=flat-square&logo=python&logoColor=00FF9F)
-
-
-
-
-![JavaScript](https://img.shields.io/badge/-JavaScript-000?style=flat-square&logo=javascript&logoColor=00FF9F)
-
-
-
-
-![Java](https://img.shields.io/badge/-Java-000?style=flat-square&logo=openjdk&logoColor=00FF9F)
-
-
-
-
-![C](https://img.shields.io/badge/-C-000?style=flat-square&logo=c&logoColor=00FF9F)
-
-
-
-
-![Git](https://img.shields.io/badge/-Git-000?style=flat-square&logo=git&logoColor=00FF9F)
-
-
-
-
-![Linux](https://img.shields.io/badge/-Linux-000?style=flat-square&logo=linux&logoColor=00FF9F)
-
-
-
-
-![Figma](https://img.shields.io/badge/-Figma-000?style=flat-square&logo=figma&logoColor=00FF9F)
-
-
-
-</div>
-
----
-
-<div align="center">
-
-## `> run mission_statement.sh`
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=400&size=16&duration=3500&pause=1000&color=00FF9F&center=true&vCenter=true&width=700&lines=%22The+best+way+to+predict+the+future+is+to+build+it.%22;Turning+concepts+into+commercial+robotics+products.;Always+learning.+Always+building.+Always+shipping." alt="mission" />
-
-</div>
-
-<br>
-
-
-
-![Footer](https://capsule-render.vercel.app/api?type=rect&color=0:24243e,50:302b63,100:0f0c29&height=100&section=footer&animation=fadeIn)
+  <rect x="330" y="138" width="9" height="16" fill="#39d353" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="3.3s" fill="freeze"/>
+    <animate attributeName="opacity" values="1;0;1" dur="1s" begin="3.4s" repeatCount="indefinite"/>
+  </rect>
+</svg>
