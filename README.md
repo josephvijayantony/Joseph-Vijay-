@@ -1,155 +1,152 @@
-
-![Header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=JOSEPH%20VIJAY&fontSize=50&desc=Robotics%20·%20AI/ML%20·%20IoT%20·%20Full-Stack&descSize=15)
-
+<div align="center">
 
 
-<p align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=6C63FF&center=true&vCenter=true&width=600&lines=Building+Autonomous+Systems+%26+Smart+Products;Robotics+%7C+AI%2FML+%7C+IoT+Enthusiast;Turning+Ideas+Into+Real+Products" alt="Typing SVG" />
-  </a>
-</p>
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Joseph-Vijay-&style=flat&color=blue" alt="Profile views" />
-  <img src="https://img.shields.io/badge/Location-India-blue?style=flat&logo=googlemaps" alt="Location" />
-</p>
+![Header](https://capsule-render.vercel.app/api?type=waving&color=0:8E2DE2,100:4A00E0&height=250&section=header&text=JOSEPH%20VIJAY&fontSize=60&fontColor=ffffff&animation=twinkling&fontAlignY=35&desc=Robotics%20Engineer%20%7C%20AI%2FML%20%7C%20IoT%20Innovator&descAlignY=55&descSize=18)
 
----
 
-## 🛠️ Tech Stack
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3000&pause=800&color=8E2DE2&center=true&vCenter=true&width=650&lines=Building+Autonomous+Systems+%F0%9F%A4%96;Turning+Ideas+Into+Real+Products+%F0%9F%9A%80;Robotics+%2B+AI%2FML+%2B+IoT+%F0%9F%92%A1;Founder+%40+Huromata" alt="Typing SVG" />
+
+<img src="https://komarev.com/ghpvc/?username=Joseph-Vijay-&style=for-the-badge&color=8E2DE2" alt="Profile views" />
+<img src="https://img.shields.io/badge/Location-India-8E2DE2?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Location" />
+
+</div>
+
+<br>
+
+## ⚡ About Me
+
+<img align="right" width="380" src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif">
+
+- 🔭 Building autonomous systems & smart products
+- 🤖 Robotics · AI/ML · IoT · Full-Stack
+- 🌱 Founder @ Huromata
+- 💬 Ask me about ROS, embedded systems, or ML deployment
+- ⚡ Fun fact: I turn concepts into commercial products
+
+<br clear="both">
+
+## 🛠️ Tech Arsenal
+
+<div align="center">
 
 ### Robotics & Hardware
 
 
-![ROS](https://img.shields.io/badge/ROS%2FROS2-22314E?style=flat&logo=ros)
+![ROS](https://img.shields.io/badge/ROS%2FROS2-22314E?style=for-the-badge&logo=ros&logoColor=white)
 
 
 
 
-![Arduino](https://img.shields.io/badge/Arduino-00979D?style=flat&logo=arduino&logoColor=white)
+![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white)
 
 
 
 
-![RaspberryPi](https://img.shields.io/badge/Raspberry%20Pi-A22846?style=flat&logo=raspberrypi&logoColor=white)
-
-
-
-
-![3DPrinting](https://img.shields.io/badge/3D%20Printing-FF6F00?style=flat)
+![RaspberryPi](https://img.shields.io/badge/Raspberry%20Pi-A22846?style=for-the-badge&logo=raspberrypi&logoColor=white)
 
 
 
 ### AI / ML
 
 
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
 
 
 
 
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
 
 
 
 
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat&logo=opencv&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
 
 
 
+### Languages
 
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)
 
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
 
-### Programming Languages
 
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
 
 
 
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 
 
 
+### Full-Stack
 
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)
 
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 
 
 
-![C](https://img.shields.io/badge/C-A8B9CC?style=flat&logo=c&logoColor=black)
 
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
 
 
-### Full-Stack & Web
 
 
-![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 
 
 
+### Tools
 
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white)
 
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
 
 
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
 
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
 
 
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
 
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
 
 
 
-![RESTAPIs](https://img.shields.io/badge/REST%20APIs-FF6C37?style=flat&logo=fastapi)
+</div>
 
-
-
-### Tools & Platforms
-
-
-![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
-
-
-
-
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
-
-
-
-
-![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat&logo=figma&logoColor=white)
-
-
-
-
-![IoT](https://img.shields.io/badge/IoT%20Platforms-00979D?style=flat)
-
-
-
----
+<br>
 
 ## 📊 GitHub Stats
 
+<div align="center">
+<img src="https://github-readme-stats.vercel.app/api?username=Joseph-Vijay-&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117" width="48%" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Joseph-Vijay-&theme=radical&hide_border=true&background=0D1117" width="48%" />
+</div>
+
+<div align="center">
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Joseph-Vijay-&theme=react-dark&hide_border=true&bg_color=0D1117" width="97%"/>
+</div>
+
+<br>
+
+<div align="center">
 
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Joseph-Vijay-&show_icons=true&theme=radical&hide_border=true)
+
+![Snake animation](https://raw.githubusercontent.com/Joseph-Vijay-/Joseph-Vijay-/output/github-contribution-grid-snake.svg)
 
 
 
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Joseph-Vijay-&layout=compact&theme=radical&hide_border=true)
-
+</div>
 
 
 
+![Footer](https://capsule-render.vercel.app/api?type=waving&color=0:4A00E0,100:8E2DE2&height=150&section=footer&animation=twinkling)
 
-![Header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer)
+
 
 
