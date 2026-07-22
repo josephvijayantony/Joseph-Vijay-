@@ -16,11 +16,32 @@
 
 ---
 
-## 🛠 Tech Stack
+🛠 Tech Stack
 
 <div align="center">
-<img src="https://skillicons.dev/icons?i=python,cpp,java,js,react,nodejs,arduino,raspberrypi,tensorflow,opencv,git,linux" />
+
+**Robotics & Hardware**
+<br/>
+<img src="https://skillicons.dev/icons?i=raspberrypi,arduino" />
+
+**AI / ML**
+<br/>
+<img src="https://skillicons.dev/icons?i=tensorflow,pytorch,opencv,sklearn" />
+
+**Languages**
+<br/>
+<img src="https://skillicons.dev/icons?i=python,javascript,java,c,cpp" />
+
+**Full-Stack & Web**
+<br/>
+<img src="https://skillicons.dev/icons?i=react,nodejs,html,css,express" />
+
+**Tools & Platforms**
+<br/>
+<img src="https://skillicons.dev/icons?i=git,github,linux,figma,docker" />
+
 </div>
+
 
 ---
 
